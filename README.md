@@ -4,7 +4,8 @@ Lớp: 58KTPM
 # SỬ DỤNG WORDPRESS ĐỂ TẠO WEB SITE
 ## deadline : 23h59 ngày 12 tháng 5 năm 2026.
 
-1. SỬ DỤNG DOCKER TRÊN UBUNTU ĐỂ TẠO docker ccompose chứa: 
+** 1. SỬ DỤNG DOCKER TRÊN UBUNTU ĐỂ TẠO docker ccompose chứa:**
+
 - Mariadb: sử dụng **image: mariadb:latest** để làm hệ quản trị csdl cho wordpress
 - Phpmyadmin: sư dụng **image: phpmyadmin:latest** để đăng nhập vào mariadb rồi tạo csdl trống (chỉ để xem, ko cần tạo bảng từ đây, wordpress sẽ làm hết)
 - WordPress: Sử dụng **image: wordpress:latest**, truyền các tham số môi trường cho wordpress là các thông tin truy cập csdl mariadb, tạo bởi Phpmyadmin
